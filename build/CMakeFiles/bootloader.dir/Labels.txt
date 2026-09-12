@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/CMakeFiles/bootloader
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/CMakeFiles/bootloader.rule
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/CMakeFiles/bootloader-complete.rule
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

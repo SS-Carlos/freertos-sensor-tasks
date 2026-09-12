@@ -1,0 +1,2 @@
+source /home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/symbols
+source /home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/connect
