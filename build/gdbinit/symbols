@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader/bootloader.elf
+    add-symbol-file /home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/freertos-sensor-tasks.elf
+file /home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/freertos-sensor-tasks.elf

@@ -1,13 +1,13 @@
 {
     "version":            "1.3",
     "project_name":       "freertos-sensor-tasks",
-    "project_version":    "1",
-    "project_path":       "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks",
+    "project_version":    "3e4c5ec-dirty",
+    "project_path":       "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks",
     "idf_path":           "/opt/esp-idf",
-    "build_dir":          "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build",
-    "config_file":        "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/sdkconfig",
+    "build_dir":          "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build",
+    "config_file":        "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/sdkconfig",
     "config_defaults":    "",
-    "bootloader_elf":     "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader/bootloader.elf",
+    "bootloader_elf":     "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader/bootloader.elf",
     "app_elf":            "freertos-sensor-tasks.elf",
     "app_bin":            "freertos-sensor-tasks.bin",
     "build_type":         "flash_app",
@@ -25,8 +25,8 @@
         "COMPONENT_KCONFIGS_PROJBUILD" : "/opt/esp-idf/components/app_update/Kconfig.projbuild;/opt/esp-idf/components/bootloader/Kconfig.projbuild;/opt/esp-idf/components/esp_app_format/Kconfig.projbuild;/opt/esp-idf/components/esp_rom/Kconfig.projbuild;/opt/esp-idf/components/esptool_py/Kconfig.projbuild;/opt/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "esp_libc", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "esp_stdio", "xtensa" ],
-    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_blockdev", "esp_blockdev_util", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_cam", "esp_driver_dac", "esp_driver_dma", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_i3c", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sd_intf", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hal_ana_cmpr", "esp_hal_ana_conv", "esp_hal_cam", "esp_hal_clock", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_i2c", "esp_hal_i2s", "esp_hal_ieee802154", "esp_hal_jpeg", "esp_hal_lcd", "esp_hal_ledc", "esp_hal_mcpwm", "esp_hal_mspi", "esp_hal_parlio", "esp_hal_pcnt", "esp_hal_pmu", "esp_hal_ppa", "esp_hal_rmt", "esp_hal_rtc_timer", "esp_hal_sd", "esp_hal_security", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_twai", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_libc", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_trace", "esp_usb_cdc_rom_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "log", "lwip", "main", "mbedtls", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "vfs", "wear_levelling", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "/opt/esp-idf/components/app_trace", "/opt/esp-idf/components/app_update", "/opt/esp-idf/components/bootloader", "/opt/esp-idf/components/bootloader_support", "/opt/esp-idf/components/bt", "/opt/esp-idf/components/cmock", "/opt/esp-idf/components/console", "/opt/esp-idf/components/cxx", "/opt/esp-idf/components/driver", "/opt/esp-idf/components/efuse", "/opt/esp-idf/components/esp-tls", "/opt/esp-idf/components/esp_adc", "/opt/esp-idf/components/esp_app_format", "/opt/esp-idf/components/esp_blockdev", "/opt/esp-idf/components/esp_blockdev_util", "/opt/esp-idf/components/esp_bootloader_format", "/opt/esp-idf/components/esp_coex", "/opt/esp-idf/components/esp_common", "/opt/esp-idf/components/esp_driver_ana_cmpr", "/opt/esp-idf/components/esp_driver_bitscrambler", "/opt/esp-idf/components/esp_driver_cam", "/opt/esp-idf/components/esp_driver_dac", "/opt/esp-idf/components/esp_driver_dma", "/opt/esp-idf/components/esp_driver_gpio", "/opt/esp-idf/components/esp_driver_gptimer", "/opt/esp-idf/components/esp_driver_i2c", "/opt/esp-idf/components/esp_driver_i2s", "/opt/esp-idf/components/esp_driver_i3c", "/opt/esp-idf/components/esp_driver_isp", "/opt/esp-idf/components/esp_driver_jpeg", "/opt/esp-idf/components/esp_driver_ledc", "/opt/esp-idf/components/esp_driver_mcpwm", "/opt/esp-idf/components/esp_driver_parlio", "/opt/esp-idf/components/esp_driver_pcnt", "/opt/esp-idf/components/esp_driver_ppa", "/opt/esp-idf/components/esp_driver_rmt", "/opt/esp-idf/components/esp_driver_sd_intf", "/opt/esp-idf/components/esp_driver_sdio", "/opt/esp-idf/components/esp_driver_sdm", "/opt/esp-idf/components/esp_driver_sdmmc", "/opt/esp-idf/components/esp_driver_sdspi", "/opt/esp-idf/components/esp_driver_spi", "/opt/esp-idf/components/esp_driver_touch_sens", "/opt/esp-idf/components/esp_driver_tsens", "/opt/esp-idf/components/esp_driver_twai", "/opt/esp-idf/components/esp_driver_uart", "/opt/esp-idf/components/esp_driver_usb_serial_jtag", "/opt/esp-idf/components/esp_eth", "/opt/esp-idf/components/esp_event", "/opt/esp-idf/components/esp_gdbstub", "/opt/esp-idf/components/esp_hal_ana_cmpr", "/opt/esp-idf/components/esp_hal_ana_conv", "/opt/esp-idf/components/esp_hal_cam", "/opt/esp-idf/components/esp_hal_clock", "/opt/esp-idf/components/esp_hal_dma", "/opt/esp-idf/components/esp_hal_gpio", "/opt/esp-idf/components/esp_hal_gpspi", "/opt/esp-idf/components/esp_hal_i2c", "/opt/esp-idf/components/esp_hal_i2s", "/opt/esp-idf/components/esp_hal_ieee802154", "/opt/esp-idf/components/esp_hal_jpeg", "/opt/esp-idf/components/esp_hal_lcd", "/opt/esp-idf/components/esp_hal_ledc", "/opt/esp-idf/components/esp_hal_mcpwm", "/opt/esp-idf/components/esp_hal_mspi", "/opt/esp-idf/components/esp_hal_parlio", "/opt/esp-idf/components/esp_hal_pcnt", "/opt/esp-idf/components/esp_hal_pmu", "/opt/esp-idf/components/esp_hal_ppa", "/opt/esp-idf/components/esp_hal_rmt", "/opt/esp-idf/components/esp_hal_rtc_timer", "/opt/esp-idf/components/esp_hal_sd", "/opt/esp-idf/components/esp_hal_security", "/opt/esp-idf/components/esp_hal_timg", "/opt/esp-idf/components/esp_hal_touch_sens", "/opt/esp-idf/components/esp_hal_twai", "/opt/esp-idf/components/esp_hal_uart", "/opt/esp-idf/components/esp_hal_usb", "/opt/esp-idf/components/esp_hal_wdt", "/opt/esp-idf/components/esp_hid", "/opt/esp-idf/components/esp_http_client", "/opt/esp-idf/components/esp_http_server", "/opt/esp-idf/components/esp_https_ota", "/opt/esp-idf/components/esp_https_server", "/opt/esp-idf/components/esp_hw_support", "/opt/esp-idf/components/esp_lcd", "/opt/esp-idf/components/esp_libc", "/opt/esp-idf/components/esp_local_ctrl", "/opt/esp-idf/components/esp_mm", "/opt/esp-idf/components/esp_netif", "/opt/esp-idf/components/esp_netif_stack", "/opt/esp-idf/components/esp_partition", "/opt/esp-idf/components/esp_phy", "/opt/esp-idf/components/esp_pm", "/opt/esp-idf/components/esp_psram", "/opt/esp-idf/components/esp_ringbuf", "/opt/esp-idf/components/esp_rom", "/opt/esp-idf/components/esp_security", "/opt/esp-idf/components/esp_stdio", "/opt/esp-idf/components/esp_system", "/opt/esp-idf/components/esp_timer", "/opt/esp-idf/components/esp_trace", "/opt/esp-idf/components/esp_usb_cdc_rom_console", "/opt/esp-idf/components/esp_wifi", "/opt/esp-idf/components/espcoredump", "/opt/esp-idf/components/esptool_py", "/opt/esp-idf/components/fatfs", "/opt/esp-idf/components/freertos", "/opt/esp-idf/components/hal", "/opt/esp-idf/components/heap", "/opt/esp-idf/components/http_parser", "/opt/esp-idf/components/idf_test", "/opt/esp-idf/components/ieee802154", "/opt/esp-idf/components/log", "/opt/esp-idf/components/lwip", "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/main", "/opt/esp-idf/components/mbedtls", "/opt/esp-idf/components/nvs_flash", "/opt/esp-idf/components/nvs_sec_provider", "/opt/esp-idf/components/openthread", "/opt/esp-idf/components/partition_table", "/opt/esp-idf/components/perfmon", "/opt/esp-idf/components/protobuf-c", "/opt/esp-idf/components/protocomm", "/opt/esp-idf/components/pthread", "/opt/esp-idf/components/rt", "/opt/esp-idf/components/sdmmc", "/opt/esp-idf/components/soc", "/opt/esp-idf/components/spi_flash", "/opt/esp-idf/components/spiffs", "/opt/esp-idf/components/tcp_transport", "/opt/esp-idf/components/ulp", "/opt/esp-idf/components/unity", "/opt/esp-idf/components/vfs", "/opt/esp-idf/components/wear_levelling", "/opt/esp-idf/components/wpa_supplicant", "/opt/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "app_trace", "app_update", "bmp280", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_blockdev", "esp_blockdev_util", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_cam", "esp_driver_dac", "esp_driver_dma", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_i3c", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sd_intf", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hal_ana_cmpr", "esp_hal_ana_conv", "esp_hal_cam", "esp_hal_clock", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_i2c", "esp_hal_i2s", "esp_hal_ieee802154", "esp_hal_jpeg", "esp_hal_lcd", "esp_hal_ledc", "esp_hal_mcpwm", "esp_hal_mspi", "esp_hal_parlio", "esp_hal_pcnt", "esp_hal_pmu", "esp_hal_ppa", "esp_hal_rmt", "esp_hal_rtc_timer", "esp_hal_sd", "esp_hal_security", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_twai", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_libc", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_trace", "esp_usb_cdc_rom_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "log", "lwip", "main", "mbedtls", "mpu6050", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "sht30", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "vfs", "wear_levelling", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "/opt/esp-idf/components/app_trace", "/opt/esp-idf/components/app_update", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/bmp280", "/opt/esp-idf/components/bootloader", "/opt/esp-idf/components/bootloader_support", "/opt/esp-idf/components/bt", "/opt/esp-idf/components/cmock", "/opt/esp-idf/components/console", "/opt/esp-idf/components/cxx", "/opt/esp-idf/components/driver", "/opt/esp-idf/components/efuse", "/opt/esp-idf/components/esp-tls", "/opt/esp-idf/components/esp_adc", "/opt/esp-idf/components/esp_app_format", "/opt/esp-idf/components/esp_blockdev", "/opt/esp-idf/components/esp_blockdev_util", "/opt/esp-idf/components/esp_bootloader_format", "/opt/esp-idf/components/esp_coex", "/opt/esp-idf/components/esp_common", "/opt/esp-idf/components/esp_driver_ana_cmpr", "/opt/esp-idf/components/esp_driver_bitscrambler", "/opt/esp-idf/components/esp_driver_cam", "/opt/esp-idf/components/esp_driver_dac", "/opt/esp-idf/components/esp_driver_dma", "/opt/esp-idf/components/esp_driver_gpio", "/opt/esp-idf/components/esp_driver_gptimer", "/opt/esp-idf/components/esp_driver_i2c", "/opt/esp-idf/components/esp_driver_i2s", "/opt/esp-idf/components/esp_driver_i3c", "/opt/esp-idf/components/esp_driver_isp", "/opt/esp-idf/components/esp_driver_jpeg", "/opt/esp-idf/components/esp_driver_ledc", "/opt/esp-idf/components/esp_driver_mcpwm", "/opt/esp-idf/components/esp_driver_parlio", "/opt/esp-idf/components/esp_driver_pcnt", "/opt/esp-idf/components/esp_driver_ppa", "/opt/esp-idf/components/esp_driver_rmt", "/opt/esp-idf/components/esp_driver_sd_intf", "/opt/esp-idf/components/esp_driver_sdio", "/opt/esp-idf/components/esp_driver_sdm", "/opt/esp-idf/components/esp_driver_sdmmc", "/opt/esp-idf/components/esp_driver_sdspi", "/opt/esp-idf/components/esp_driver_spi", "/opt/esp-idf/components/esp_driver_touch_sens", "/opt/esp-idf/components/esp_driver_tsens", "/opt/esp-idf/components/esp_driver_twai", "/opt/esp-idf/components/esp_driver_uart", "/opt/esp-idf/components/esp_driver_usb_serial_jtag", "/opt/esp-idf/components/esp_eth", "/opt/esp-idf/components/esp_event", "/opt/esp-idf/components/esp_gdbstub", "/opt/esp-idf/components/esp_hal_ana_cmpr", "/opt/esp-idf/components/esp_hal_ana_conv", "/opt/esp-idf/components/esp_hal_cam", "/opt/esp-idf/components/esp_hal_clock", "/opt/esp-idf/components/esp_hal_dma", "/opt/esp-idf/components/esp_hal_gpio", "/opt/esp-idf/components/esp_hal_gpspi", "/opt/esp-idf/components/esp_hal_i2c", "/opt/esp-idf/components/esp_hal_i2s", "/opt/esp-idf/components/esp_hal_ieee802154", "/opt/esp-idf/components/esp_hal_jpeg", "/opt/esp-idf/components/esp_hal_lcd", "/opt/esp-idf/components/esp_hal_ledc", "/opt/esp-idf/components/esp_hal_mcpwm", "/opt/esp-idf/components/esp_hal_mspi", "/opt/esp-idf/components/esp_hal_parlio", "/opt/esp-idf/components/esp_hal_pcnt", "/opt/esp-idf/components/esp_hal_pmu", "/opt/esp-idf/components/esp_hal_ppa", "/opt/esp-idf/components/esp_hal_rmt", "/opt/esp-idf/components/esp_hal_rtc_timer", "/opt/esp-idf/components/esp_hal_sd", "/opt/esp-idf/components/esp_hal_security", "/opt/esp-idf/components/esp_hal_timg", "/opt/esp-idf/components/esp_hal_touch_sens", "/opt/esp-idf/components/esp_hal_twai", "/opt/esp-idf/components/esp_hal_uart", "/opt/esp-idf/components/esp_hal_usb", "/opt/esp-idf/components/esp_hal_wdt", "/opt/esp-idf/components/esp_hid", "/opt/esp-idf/components/esp_http_client", "/opt/esp-idf/components/esp_http_server", "/opt/esp-idf/components/esp_https_ota", "/opt/esp-idf/components/esp_https_server", "/opt/esp-idf/components/esp_hw_support", "/opt/esp-idf/components/esp_lcd", "/opt/esp-idf/components/esp_libc", "/opt/esp-idf/components/esp_local_ctrl", "/opt/esp-idf/components/esp_mm", "/opt/esp-idf/components/esp_netif", "/opt/esp-idf/components/esp_netif_stack", "/opt/esp-idf/components/esp_partition", "/opt/esp-idf/components/esp_phy", "/opt/esp-idf/components/esp_pm", "/opt/esp-idf/components/esp_psram", "/opt/esp-idf/components/esp_ringbuf", "/opt/esp-idf/components/esp_rom", "/opt/esp-idf/components/esp_security", "/opt/esp-idf/components/esp_stdio", "/opt/esp-idf/components/esp_system", "/opt/esp-idf/components/esp_timer", "/opt/esp-idf/components/esp_trace", "/opt/esp-idf/components/esp_usb_cdc_rom_console", "/opt/esp-idf/components/esp_wifi", "/opt/esp-idf/components/espcoredump", "/opt/esp-idf/components/esptool_py", "/opt/esp-idf/components/fatfs", "/opt/esp-idf/components/freertos", "/opt/esp-idf/components/hal", "/opt/esp-idf/components/heap", "/opt/esp-idf/components/http_parser", "/opt/esp-idf/components/idf_test", "/opt/esp-idf/components/ieee802154", "/opt/esp-idf/components/log", "/opt/esp-idf/components/lwip", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/main", "/opt/esp-idf/components/mbedtls", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/mpu6050", "/opt/esp-idf/components/nvs_flash", "/opt/esp-idf/components/nvs_sec_provider", "/opt/esp-idf/components/openthread", "/opt/esp-idf/components/partition_table", "/opt/esp-idf/components/perfmon", "/opt/esp-idf/components/protobuf-c", "/opt/esp-idf/components/protocomm", "/opt/esp-idf/components/pthread", "/opt/esp-idf/components/rt", "/opt/esp-idf/components/sdmmc", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/sht30", "/opt/esp-idf/components/soc", "/opt/esp-idf/components/spi_flash", "/opt/esp-idf/components/spiffs", "/opt/esp-idf/components/tcp_transport", "/opt/esp-idf/components/ulp", "/opt/esp-idf/components/unity", "/opt/esp-idf/components/vfs", "/opt/esp-idf/components/wear_levelling", "/opt/esp-idf/components/wpa_supplicant", "/opt/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -54,8 +54,23 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/app_update/libapp_update.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "/opt/esp-idf/components/app_update/esp_ota_ops.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "bmp280": {
+            "alias": "idf::bmp280",
+            "target": "___idf_bmp280",
+            "prefix": "idf",
+            "dir": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/bmp280",
+            "type": "LIBRARY",
+            "lib": "__idf_bmp280",
+            "reqs": [ "esp_driver_i2c", "driver", "freertos", "esp_common" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/bmp280/libbmp280.a",
+            "sources": [ "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/bmp280/src/bmp280.c", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/bmp280/src/bmp280_comp.c" ],
             "include_dirs": [ "include" ]
         },
         "bootloader": {
@@ -84,7 +99,7 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_bootloader_format", "esp_app_format", "esptool_py", "esp_hal_wdt", "esp_hal_gpio", "esp_hal_uart", "esp_hal_ana_conv", "esp_hal_rtc_timer", "esp_hal_clock" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "/opt/esp-idf/components/bootloader_support/src/bootloader_common.c", "/opt/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/opt/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/opt/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/opt/esp-idf/components/bootloader_support/src/bootloader_random.c", "/opt/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/opt/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/opt/esp-idf/components/bootloader_support/src/secure_boot.c", "/opt/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c", "/opt/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/opt/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/opt/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c", "/opt/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/opt/esp-idf/components/bootloader_support/src/flash_partitions.c", "/opt/esp-idf/components/bootloader_support/src/esp_image_format.c", "/opt/esp-idf/components/bootloader_support/src/bootloader_sha.c", "/opt/esp-idf/components/bootloader_support/src/esp32/secure_boot_secure_features.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
@@ -114,7 +129,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/cmock/libcmock.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/cmock/libcmock.a",
             "sources": [ "/opt/esp-idf/components/cmock/CMock/src/cmock.c" ],
             "include_dirs": [ "CMock/src" ]
         },
@@ -129,7 +144,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_usb_cdc_rom_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/console/libconsole.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/console/libconsole.a",
             "sources": [ "/opt/esp-idf/components/console/commands.c", "/opt/esp-idf/components/console/esp_console_common.c", "/opt/esp-idf/components/console/esp_console_repl_internal.c", "/opt/esp-idf/components/console/split_argv.c", "/opt/esp-idf/components/console/linenoise/linenoise.c", "/opt/esp-idf/components/console/esp_console_repl_chip.c", "/opt/esp-idf/components/console/argtable3/arg_cmd.c", "/opt/esp-idf/components/console/argtable3/arg_date.c", "/opt/esp-idf/components/console/argtable3/arg_dbl.c", "/opt/esp-idf/components/console/argtable3/arg_dstr.c", "/opt/esp-idf/components/console/argtable3/arg_end.c", "/opt/esp-idf/components/console/argtable3/arg_file.c", "/opt/esp-idf/components/console/argtable3/arg_hashtable.c", "/opt/esp-idf/components/console/argtable3/arg_int.c", "/opt/esp-idf/components/console/argtable3/arg_lit.c", "/opt/esp-idf/components/console/argtable3/arg_rem.c", "/opt/esp-idf/components/console/argtable3/arg_rex.c", "/opt/esp-idf/components/console/argtable3/arg_str.c", "/opt/esp-idf/components/console/argtable3/arg_utils.c", "/opt/esp-idf/components/console/argtable3/argtable3.c" ],
             "include_dirs": [ "/opt/esp-idf/components/console" ]
         },
@@ -144,7 +159,7 @@
             "priv_reqs": [ "esp_system", "pthread" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/cxx/libcxx.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/cxx/libcxx.a",
             "sources": [ "/opt/esp-idf/components/cxx/cxx_exception_stubs.cpp", "/opt/esp-idf/components/cxx/cxx_guards.cpp", "/opt/esp-idf/components/cxx/cxx_init.cpp" ],
             "include_dirs": []
         },
@@ -159,7 +174,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio", "esp_ringbuf", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/driver/libdriver.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/driver/libdriver.a",
             "sources": [ "/opt/esp-idf/components/driver/i2c/i2c.c", "/opt/esp-idf/components/driver/touch_sensor/touch_sensor_common.c", "/opt/esp-idf/components/driver/touch_sensor/esp32/touch_sensor.c", "/opt/esp-idf/components/driver/twai/twai.c" ],
             "include_dirs": [ "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32/include" ]
         },
@@ -174,7 +189,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format", "esp_hal_security" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/efuse/libefuse.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/efuse/libefuse.a",
             "sources": [ "/opt/esp-idf/components/efuse/esp32/esp_efuse_table.c", "/opt/esp-idf/components/efuse/esp32/esp_efuse_fields.c", "/opt/esp-idf/components/efuse/esp32/esp_efuse_utility.c", "/opt/esp-idf/components/efuse/src/esp_efuse_api.c", "/opt/esp-idf/components/efuse/src/esp_efuse_fields.c", "/opt/esp-idf/components/efuse/src/esp_efuse_utility.c", "/opt/esp-idf/components/efuse/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c", "/opt/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -189,7 +204,7 @@
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp-tls/libesp-tls.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp-tls/libesp-tls.a",
             "sources": [ "/opt/esp-idf/components/esp-tls/esp_tls.c", "/opt/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.c", "/opt/esp-idf/components/esp-tls/esp_tls_error_capture.c", "/opt/esp-idf/components/esp-tls/esp_tls_platform_port.c", "/opt/esp-idf/components/esp-tls/esp_tls_mbedtls.c" ],
             "include_dirs": [ "/opt/esp-idf/components/esp-tls", "esp-tls-crypto" ]
         },
@@ -204,7 +219,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "efuse", "esp_pm", "esp_ringbuf", "esp_mm", "esp_driver_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_adc/libesp_adc.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_adc/libesp_adc.a",
             "sources": [ "/opt/esp-idf/components/esp_adc/adc_oneshot.c", "/opt/esp-idf/components/esp_adc/adc_common.c", "/opt/esp-idf/components/esp_adc/adc_cali.c", "/opt/esp-idf/components/esp_adc/adc_cali_curve_fitting.c", "/opt/esp-idf/components/esp_adc/adc_continuous.c", "/opt/esp-idf/components/esp_adc/esp32/adc_dma.c", "/opt/esp-idf/components/esp_adc/esp32/adc_cali_line_fitting.c" ],
             "include_dirs": [ "include", "interface", "esp32/include" ]
         },
@@ -219,7 +234,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "/opt/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -249,7 +264,7 @@
             "priv_reqs": [ "esp_blockdev" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_blockdev_util/libesp_blockdev_util.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_blockdev_util/libesp_blockdev_util.a",
             "sources": [ "/opt/esp-idf/components/esp_blockdev_util/generic_partition.c", "/opt/esp-idf/components/esp_blockdev_util/memory.c" ],
             "include_dirs": [ "include" ]
         },
@@ -264,7 +279,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "/opt/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -279,7 +294,7 @@
             "priv_reqs": [ "esp_timer", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_coex/libesp_coex.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_coex/libesp_coex.a",
             "sources": [ "/opt/esp-idf/components/esp_coex/esp32/esp_coex_adapter.c", "/opt/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/opt/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
@@ -294,7 +309,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_common/libesp_common.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "/opt/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -339,7 +354,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_cam/libesp_driver_cam.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_cam/libesp_driver_cam.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_cam/esp_cam_ctlr.c", "/opt/esp-idf/components/esp_driver_cam/dvp_share_ctrl.c" ],
             "include_dirs": [ "include", "interface" ]
         },
@@ -354,7 +369,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_hal_clock", "esp_driver_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_dac/libesp_driver_dac.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_dac/libesp_driver_dac.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_dac/dac_oneshot.c", "/opt/esp-idf/components/esp_driver_dac/dac_cosine.c", "/opt/esp-idf/components/esp_driver_dac/dac_continuous.c", "/opt/esp-idf/components/esp_driver_dac/dac_common.c", "/opt/esp-idf/components/esp_driver_dac/esp32/dac_dma.c" ],
             "include_dirs": [ "./include" ]
         },
@@ -369,7 +384,7 @@
             "priv_reqs": [ "esp_mm", "bootloader_support", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_dma/libesp_driver_dma.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_dma/libesp_driver_dma.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c", "/opt/esp-idf/components/esp_driver_dma/src/gdma_link.c" ],
             "include_dirs": [ "include" ]
         },
@@ -384,7 +399,7 @@
             "priv_reqs": [ "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_gpio/src/gpio.c", "/opt/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "/opt/esp-idf/components/esp_driver_gpio/src/rtc_io.c" ],
             "include_dirs": [ "include" ]
         },
@@ -399,7 +414,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_gptimer/src/gptimer.c", "/opt/esp-idf/components/esp_driver_gptimer/src/gptimer_common.c" ],
             "include_dirs": [ "include" ]
         },
@@ -414,7 +429,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_i2c/i2c_master.c", "/opt/esp-idf/components/esp_driver_i2c/i2c_common.c", "/opt/esp-idf/components/esp_driver_i2c/i2c_slave.c" ],
             "include_dirs": [ "include" ]
         },
@@ -429,7 +444,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "esp_pm", "esp_mm", "esp_hal_clock", "esp_hal_ana_conv" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_i2s/i2s_common.c", "/opt/esp-idf/components/esp_driver_i2s/i2s_std.c", "/opt/esp-idf/components/esp_driver_i2s/i2s_pdm.c", "/opt/esp-idf/components/esp_driver_i2s/i2s_platform.c" ],
             "include_dirs": [ "include" ]
         },
@@ -489,7 +504,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_ledc/src/ledc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -504,7 +519,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cap.c", "/opt/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cmpr.c", "/opt/esp-idf/components/esp_driver_mcpwm/src/mcpwm_com.c", "/opt/esp-idf/components/esp_driver_mcpwm/src/mcpwm_fault.c", "/opt/esp-idf/components/esp_driver_mcpwm/src/mcpwm_gen.c", "/opt/esp-idf/components/esp_driver_mcpwm/src/mcpwm_oper.c", "/opt/esp-idf/components/esp_driver_mcpwm/src/mcpwm_sync.c", "/opt/esp-idf/components/esp_driver_mcpwm/src/mcpwm_timer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -534,7 +549,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c" ],
             "include_dirs": [ "include" ]
         },
@@ -564,7 +579,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_bitscrambler", "esp_mm", "esp_driver_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_rmt/src/rmt_common.c", "/opt/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c", "/opt/esp-idf/components/esp_driver_rmt/src/rmt_encoder_bytes.c", "/opt/esp-idf/components/esp_driver_rmt/src/rmt_encoder_copy.c", "/opt/esp-idf/components/esp_driver_rmt/src/rmt_encoder_simple.c", "/opt/esp-idf/components/esp_driver_rmt/src/rmt_rx.c", "/opt/esp-idf/components/esp_driver_rmt/src/rmt_tx.c" ],
             "include_dirs": [ "include" ]
         },
@@ -579,7 +594,7 @@
             "priv_reqs": [ "sdmmc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_sd_intf/sd_host.c" ],
             "include_dirs": [ "include" ]
         },
@@ -594,7 +609,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_sdio/src/sdio_slave.c" ],
             "include_dirs": [ "include" ]
         },
@@ -609,7 +624,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_sdm/src/sdm.c" ],
             "include_dirs": [ "include" ]
         },
@@ -624,7 +639,7 @@
             "priv_reqs": [ "esp_timer", "esp_pm", "esp_mm", "esp_driver_gpio", "esp_hal_sd" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c", "/opt/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c", "/opt/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c", "/opt/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c" ],
             "include_dirs": [ "include", "legacy/include" ]
         },
@@ -639,7 +654,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_sdspi/src/sdspi_crc.c", "/opt/esp-idf/components/esp_driver_sdspi/src/sdspi_host.c", "/opt/esp-idf/components/esp_driver_sdspi/src/sdspi_transaction.c" ],
             "include_dirs": [ "include" ]
         },
@@ -654,7 +669,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio", "spi_flash", "esp_psram" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "/opt/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "/opt/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "/opt/esp-idf/components/esp_driver_spi/src/gpspi/spi_dma.c" ],
             "include_dirs": [ "include" ]
         },
@@ -669,7 +684,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_touch_sens/common/touch_sens_common.c", "/opt/esp-idf/components/esp_driver_touch_sens/hw_ver1/touch_version_specific.c" ],
             "include_dirs": [ "include", "hw_ver1/include" ]
         },
@@ -699,7 +714,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_twai/libesp_driver_twai.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_twai/libesp_driver_twai.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_twai/esp_twai.c", "/opt/esp-idf/components/esp_driver_twai/esp_twai_onchip.c" ],
             "include_dirs": [ "include" ]
         },
@@ -714,7 +729,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_dma", "esp_ringbuf", "esp_mm", "esp_psram" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
             "sources": [ "/opt/esp-idf/components/esp_driver_uart/src/uart.c", "/opt/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/opt/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -744,7 +759,7 @@
             "priv_reqs": [ "log", "esp_timer", "esp_driver_spi", "esp_driver_gpio", "esp_hal_clock" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_eth/libesp_eth.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_eth/libesp_eth.a",
             "sources": [ "/opt/esp-idf/components/esp_eth/src/esp_eth.c", "/opt/esp-idf/components/esp_eth/src/phy/esp_eth_phy_802_3.c", "/opt/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c", "/opt/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp.c", "/opt/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_dma.c", "/opt/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_gpio.c", "/opt/esp-idf/components/esp_eth/src/phy/esp_eth_phy_generic.c" ],
             "include_dirs": [ "include" ]
         },
@@ -759,7 +774,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_event/libesp_event.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_event/libesp_event.a",
             "sources": [ "/opt/esp-idf/components/esp_event/default_event_loop.c", "/opt/esp-idf/components/esp_event/esp_event.c", "/opt/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
@@ -774,7 +789,7 @@
             "priv_reqs": [ "esp_hal_wdt", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
             "sources": [ "/opt/esp-idf/components/esp_gdbstub/src/gdbstub.c", "/opt/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c", "/opt/esp-idf/components/esp_gdbstub/src/packet.c", "/opt/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub_xtensa.c", "/opt/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S", "/opt/esp-idf/components/esp_gdbstub/src/port/xtensa/xt_debugexception.S" ],
             "include_dirs": [ "include" ]
         },
@@ -804,7 +819,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_ana_conv/esp32/adc_periph.c", "/opt/esp-idf/components/esp_hal_ana_conv/adc_hal_common.c", "/opt/esp-idf/components/esp_hal_ana_conv/adc_oneshot_hal.c", "/opt/esp-idf/components/esp_hal_ana_conv/adc_hal.c", "/opt/esp-idf/components/esp_hal_ana_conv/esp32/dac_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -834,7 +849,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_clock/libesp_hal_clock.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_clock/libesp_hal_clock.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_clock/esp32/clk_tree_hal.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -864,7 +879,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_gpio/libesp_hal_gpio.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_gpio/libesp_hal_gpio.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_gpio/gpio_hal.c", "/opt/esp-idf/components/esp_hal_gpio/rtc_io_hal.c", "/opt/esp-idf/components/esp_hal_gpio/esp32/rtc_io_periph.c", "/opt/esp-idf/components/esp_hal_gpio/sdm_hal.c", "/opt/esp-idf/components/esp_hal_gpio/esp32/sdm_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -879,7 +894,7 @@
             "priv_reqs": [ "esp_hal_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_gpspi/esp32/spi_periph.c", "/opt/esp-idf/components/esp_hal_gpspi/spi_hal.c", "/opt/esp-idf/components/esp_hal_gpspi/spi_hal_iram.c", "/opt/esp-idf/components/esp_hal_gpspi/spi_slave_hal.c", "/opt/esp-idf/components/esp_hal_gpspi/spi_slave_hal_iram.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -894,7 +909,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_i2c/libesp_hal_i2c.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_i2c/libesp_hal_i2c.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_i2c/i2c_hal.c", "/opt/esp-idf/components/esp_hal_i2c/i2c_hal_iram.c", "/opt/esp-idf/components/esp_hal_i2c/esp32/i2c_periph.c" ],
             "include_dirs": [ "esp32/include", "include" ]
         },
@@ -909,7 +924,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_i2s/libesp_hal_i2s.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_i2s/libesp_hal_i2s.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_i2s/i2s_hal.c", "/opt/esp-idf/components/esp_hal_i2s/esp32/i2s_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -954,7 +969,7 @@
             "priv_reqs": [ "esp_hal_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_lcd/libesp_hal_lcd.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_lcd/libesp_hal_lcd.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_lcd/esp32/lcd_periph.c" ],
             "include_dirs": [ "include" ]
         },
@@ -969,7 +984,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_ledc/libesp_hal_ledc.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_ledc/libesp_hal_ledc.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_ledc/ledc_hal.c", "/opt/esp-idf/components/esp_hal_ledc/ledc_hal_iram.c", "/opt/esp-idf/components/esp_hal_ledc/esp32/ledc_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -984,7 +999,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_mcpwm/mcpwm_hal.c", "/opt/esp-idf/components/esp_hal_mcpwm/esp32/mcpwm_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -999,7 +1014,7 @@
             "priv_reqs": [ "esp_hal_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_mspi/libesp_hal_mspi.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_mspi/libesp_hal_mspi.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_mspi/spi_flash_hal.c", "/opt/esp-idf/components/esp_hal_mspi/spi_flash_hal_iram.c", "/opt/esp-idf/components/esp_hal_mspi/spi_flash_encrypt_hal_iram.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1029,7 +1044,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_pcnt/pcnt_hal.c", "/opt/esp-idf/components/esp_hal_pcnt/esp32/pcnt_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1044,7 +1059,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_pmu/libesp_hal_pmu.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_pmu/libesp_hal_pmu.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_pmu/brownout_hal.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1074,7 +1089,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_rmt/libesp_hal_rmt.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_rmt/libesp_hal_rmt.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_rmt/rmt_hal.c", "/opt/esp-idf/components/esp_hal_rmt/esp32/rmt_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1104,7 +1119,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_sd/libesp_hal_sd.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_sd/libesp_hal_sd.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_sd/sdmmc_hal.c", "/opt/esp-idf/components/esp_hal_sd/esp32/sdmmc_periph.c", "/opt/esp-idf/components/esp_hal_sd/sdio_slave_hal.c", "/opt/esp-idf/components/esp_hal_sd/esp32/sdio_slave_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1119,7 +1134,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_security/libesp_hal_security.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_security/libesp_hal_security.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_security/mpi_hal.c", "/opt/esp-idf/components/esp_hal_security/sha_hal.c", "/opt/esp-idf/components/esp_hal_security/aes_hal.c", "/opt/esp-idf/components/esp_hal_security/mpu_hal.c" ],
             "include_dirs": [ "esp32/include", "include" ]
         },
@@ -1134,7 +1149,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_timg/libesp_hal_timg.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_timg/libesp_hal_timg.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_timg/timer_hal.c", "/opt/esp-idf/components/esp_hal_timg/esp32/timer_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1149,7 +1164,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_touch_sens/esp32/touch_sensor_legacy_hal.c", "/opt/esp-idf/components/esp_hal_touch_sens/touch_sensor_legacy_hal.c", "/opt/esp-idf/components/esp_hal_touch_sens/touch_sens_hal.c", "/opt/esp-idf/components/esp_hal_touch_sens/esp32/touch_sensor_periph.c" ],
             "include_dirs": [ "esp32/include", "include" ]
         },
@@ -1164,7 +1179,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_twai/libesp_hal_twai.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_twai/libesp_hal_twai.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_twai/esp32/twai_periph.c", "/opt/esp-idf/components/esp_hal_twai/twai_hal_v1.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1179,7 +1194,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_uart/libesp_hal_uart.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_uart/libesp_hal_uart.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_uart/uart_hal.c", "/opt/esp-idf/components/esp_hal_uart/uart_hal_iram.c", "/opt/esp-idf/components/esp_hal_uart/esp32/uart_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1209,7 +1224,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_wdt/libesp_hal_wdt.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hal_wdt/libesp_hal_wdt.a",
             "sources": [ "/opt/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c", "/opt/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1224,7 +1239,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hid/libesp_hid.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hid/libesp_hid.a",
             "sources": [ "/opt/esp-idf/components/esp_hid/src/esp_hidd.c", "/opt/esp-idf/components/esp_hid/src/esp_hidh.c", "/opt/esp-idf/components/esp_hid/src/esp_hid_common.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1239,7 +1254,7 @@
             "priv_reqs": [ "tcp_transport", "http_parser" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_http_client/libesp_http_client.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_http_client/libesp_http_client.a",
             "sources": [ "/opt/esp-idf/components/esp_http_client/esp_http_client.c", "/opt/esp-idf/components/esp_http_client/lib/http_auth.c", "/opt/esp-idf/components/esp_http_client/lib/http_header.c", "/opt/esp-idf/components/esp_http_client/lib/http_utils.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1254,7 +1269,7 @@
             "priv_reqs": [ "mbedtls", "lwip", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_http_server/libesp_http_server.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_http_server/libesp_http_server.a",
             "sources": [ "/opt/esp-idf/components/esp_http_server/src/httpd_main.c", "/opt/esp-idf/components/esp_http_server/src/httpd_parse.c", "/opt/esp-idf/components/esp_http_server/src/httpd_sess.c", "/opt/esp-idf/components/esp_http_server/src/httpd_txrx.c", "/opt/esp-idf/components/esp_http_server/src/httpd_uri.c", "/opt/esp-idf/components/esp_http_server/src/httpd_ws.c", "/opt/esp-idf/components/esp_http_server/src/util/ctrl_sock.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1269,7 +1284,7 @@
             "priv_reqs": [ "log", "app_update", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_https_ota/libesp_https_ota.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_https_ota/libesp_https_ota.a",
             "sources": [ "/opt/esp-idf/components/esp_https_ota/src/esp_https_ota.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1284,7 +1299,7 @@
             "priv_reqs": [ "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_https_server/libesp_https_server.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_https_server/libesp_https_server.a",
             "sources": [ "/opt/esp-idf/components/esp_https_server/src/https_server.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1299,7 +1314,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_security", "esp_hal_rtc_timer", "esp_hal_clock", "esp_driver_gpio", "esp_timer", "esp_hal_touch_sens", "esp_hal_i2s", "esp_pm", "esp_mm", "esp_hal_mspi", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "/opt/esp-idf/components/esp_hw_support/cpu.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "/opt/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "/opt/esp-idf/components/esp_hw_support/esp_clk.c", "/opt/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/opt/esp-idf/components/esp_hw_support/hw_random.c", "/opt/esp-idf/components/esp_hw_support/intr_alloc.c", "/opt/esp-idf/components/esp_hw_support/mac_addr.c", "/opt/esp-idf/components/esp_hw_support/periph_ctrl.c", "/opt/esp-idf/components/esp_hw_support/revision.c", "/opt/esp-idf/components/esp_hw_support/rtc_module.c", "/opt/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/opt/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/opt/esp-idf/components/esp_hw_support/sar_tsens_ctrl.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/io_mux.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/esp_clk_tree.c", "/opt/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/opt/esp-idf/components/esp_hw_support/heap_align_hw.c", "/opt/esp-idf/components/esp_hw_support/clk_utils.c", "/opt/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/opt/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/opt/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/opt/esp-idf/components/esp_hw_support/sleep_modem.c", "/opt/esp-idf/components/esp_hw_support/sleep_modes.c", "/opt/esp-idf/components/esp_hw_support/sleep_uart.c", "/opt/esp-idf/components/esp_hw_support/sleep_console.c", "/opt/esp-idf/components/esp_hw_support/sleep_mspi.c", "/opt/esp-idf/components/esp_hw_support/sleep_usb.c", "/opt/esp-idf/components/esp_hw_support/sleep_gpio.c", "/opt/esp-idf/components/esp_hw_support/sleep_event.c", "/opt/esp-idf/components/esp_hw_support/rtc_wdt.c", "/opt/esp-idf/components/esp_hw_support/mspi_timing_tuning/mspi_timing_tuning.c", "/opt/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/opt/esp-idf/components/esp_hw_support/esp_clock_output.c", "/opt/esp-idf/components/esp_hw_support/power_supply/brownout.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/chip_info.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/cache_sram_mmu.c", "/opt/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c", "/opt/esp-idf/components/esp_hw_support/lowpower" ],
             "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi_timing_tuning/include", "mspi_timing_tuning/tuning_scheme_impl/include", "power_supply/include", "modem/include" ]
         },
@@ -1314,7 +1329,7 @@
             "priv_reqs": [ "esp_mm", "esp_psram", "esp_pm", "esp_driver_i2s", "esp_driver_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_lcd/libesp_lcd.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_lcd/libesp_lcd.a",
             "sources": [ "/opt/esp-idf/components/esp_lcd/src/esp_lcd_common.c", "/opt/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c", "/opt/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c", "/opt/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c", "/opt/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c", "/opt/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c", "/opt/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c", "/opt/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i2s.c" ],
             "include_dirs": [ "include", "interface" ]
         },
@@ -1329,7 +1344,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_libc/libesp_libc.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_libc/libesp_libc.a",
             "sources": [ "/opt/esp-idf/components/esp_libc/src/init.c", "/opt/esp-idf/components/esp_libc/src/abort.c", "/opt/esp-idf/components/esp_libc/src/assert.c", "/opt/esp-idf/components/esp_libc/src/heap.c", "/opt/esp-idf/components/esp_libc/src/locks.c", "/opt/esp-idf/components/esp_libc/src/poll.c", "/opt/esp-idf/components/esp_libc/src/pthread.c", "/opt/esp-idf/components/esp_libc/src/random.c", "/opt/esp-idf/components/esp_libc/src/getentropy.c", "/opt/esp-idf/components/esp_libc/src/termios.c", "/opt/esp-idf/components/esp_libc/src/stdatomic.c", "/opt/esp-idf/components/esp_libc/src/time.c", "/opt/esp-idf/components/esp_libc/src/sysconf.c", "/opt/esp-idf/components/esp_libc/src/realpath.c", "/opt/esp-idf/components/esp_libc/src/scandir.c", "/opt/esp-idf/components/esp_libc/src/syscalls.c", "/opt/esp-idf/components/esp_libc/src/reent_syscalls.c", "/opt/esp-idf/components/esp_libc/src/port/esp_time_impl.c", "/opt/esp-idf/components/esp_libc/src/picolibc/picolibc_init.c", "/opt/esp-idf/components/esp_libc/src/picolibc/rand.c", "/opt/esp-idf/components/esp_libc/src/picolibc/open_memstream.c", "/opt/esp-idf/components/esp_libc/src/picolibc/errno.c", "/opt/esp-idf/components/esp_libc/src/picolibc/bufio_setvbuf.c", "/opt/esp-idf/components/esp_libc/src/picolibc/getreent.c", "/opt/esp-idf/components/esp_libc/src/picolibc/fopencookie.c", "/opt/esp-idf/components/esp_libc/src/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -1344,7 +1359,7 @@
             "priv_reqs": [ "protobuf-c", "esp_netif" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_local_ctrl/libesp_local_ctrl.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_local_ctrl/libesp_local_ctrl.a",
             "sources": [ "/opt/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.c", "/opt/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_handler.c", "/opt/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c", "/opt/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_transport_httpd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1359,7 +1374,7 @@
             "priv_reqs": [ "heap", "spi_flash", "esp_hal_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_mm/libesp_mm.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_mm/libesp_mm.a",
             "sources": [ "/opt/esp-idf/components/esp_mm/esp_mmu_map.c", "/opt/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c", "/opt/esp-idf/components/esp_mm/esp_cache_msync.c", "/opt/esp-idf/components/esp_mm/esp_cache_utils.c", "/opt/esp-idf/components/esp_mm/cache_esp32.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1374,7 +1389,7 @@
             "priv_reqs": [ "esp_netif_stack" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_netif/libesp_netif.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_netif/libesp_netif.a",
             "sources": [ "/opt/esp-idf/components/esp_netif/esp_netif_handlers.c", "/opt/esp-idf/components/esp_netif/esp_netif_objects.c", "/opt/esp-idf/components/esp_netif/esp_netif_defaults.c", "/opt/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/opt/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/opt/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/opt/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/opt/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/opt/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1404,7 +1419,7 @@
             "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "efuse", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "/opt/esp-idf/components/esp_partition/partition.c", "/opt/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1419,7 +1434,7 @@
             "priv_reqs": [ "nvs_flash", "esp_driver_gpio", "esp_hal_ana_conv", "efuse", "esp_timer", "esp_wifi", "esptool_py" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_phy/libesp_phy.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_phy/libesp_phy.a",
             "sources": [ "/opt/esp-idf/components/esp_phy/src/phy_override.c", "/opt/esp-idf/components/esp_phy/src/lib_printf.c", "/opt/esp-idf/components/esp_phy/src/phy_common.c", "/opt/esp-idf/components/esp_phy/src/phy_init.c", "/opt/esp-idf/components/esp_phy/esp32/phy_init_data.c", "/opt/esp-idf/components/esp_phy/src/btbb_init.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -1434,7 +1449,7 @@
             "priv_reqs": [ "esp_system", "esp_driver_gpio", "esp_timer", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "/opt/esp-idf/components/esp_pm/pm_locks.c", "/opt/esp-idf/components/esp_pm/pm_trace.c", "/opt/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1449,7 +1464,7 @@
             "priv_reqs": [ "heap", "spi_flash", "esp_mm", "esp_hal_mspi", "esp_hal_gpio", "bootloader_support", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_psram/libesp_psram.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_psram/libesp_psram.a",
             "sources": [ "/opt/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1464,7 +1479,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
             "sources": [ "/opt/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1479,7 +1494,7 @@
             "priv_reqs": [ "soc", "hal", "esp_hal_uart", "esp_hal_security" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_rom/libesp_rom.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "/opt/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/opt/esp-idf/components/esp_rom/patches/esp_rom_print.c", "/opt/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/opt/esp-idf/components/esp_rom/patches/esp_rom_serial_output.c", "/opt/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "/opt/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/opt/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "/opt/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" ],
             "include_dirs": [ "include", "esp32/include", "esp32/include/esp32", "esp32" ]
         },
@@ -1494,7 +1509,7 @@
             "priv_reqs": [ "esp_hw_support", "hal", "efuse", "esp_system", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_security/libesp_security.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_security/libesp_security.a",
             "sources": [ "/opt/esp-idf/components/esp_security/src/init.c", "/opt/esp-idf/components/esp_security/src/esp_crypto_lock.c", "/opt/esp-idf/components/esp_security/src/esp_crypto_periph_clk.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1509,7 +1524,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_stdio/libesp_stdio.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_stdio/libesp_stdio.a",
             "sources": [ "/opt/esp-idf/components/esp_stdio/stdio_vfs.c", "/opt/esp-idf/components/esp_stdio/stdio_simple.c", "/opt/esp-idf/components/esp_stdio/stdio_syscalls_simple.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1524,7 +1539,7 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "esp_hal_mspi", "esp_hal_wdt", "esp_hal_uart", "esp_hal_dma", "esp_hal_clock", "bootloader_support", "esp_pm", "esp_usb_cdc_rom_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_system/libesp_system.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_system/libesp_system.a",
             "sources": [ "/opt/esp-idf/components/esp_system/esp_err.c", "/opt/esp-idf/components/esp_system/crosscore_int.c", "/opt/esp-idf/components/esp_system/esp_ipc.c", "/opt/esp-idf/components/esp_system/freertos_hooks.c", "/opt/esp-idf/components/esp_system/int_wdt.c", "/opt/esp-idf/components/esp_system/panic.c", "/opt/esp-idf/components/esp_system/esp_system.c", "/opt/esp-idf/components/esp_system/startup.c", "/opt/esp-idf/components/esp_system/startup_funcs.c", "/opt/esp-idf/components/esp_system/system_time.c", "/opt/esp-idf/components/esp_system/stack_check.c", "/opt/esp-idf/components/esp_system/ubsan.c", "/opt/esp-idf/components/esp_system/xt_wdt.c", "/opt/esp-idf/components/esp_system/task_wdt/task_wdt.c", "/opt/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "/opt/esp-idf/components/esp_system/port/cpu_start.c", "/opt/esp-idf/components/esp_system/port/panic_handler.c", "/opt/esp-idf/components/esp_system/port/esp_system_chip.c", "/opt/esp-idf/components/esp_system/port/image_process.c", "/opt/esp-idf/components/esp_system/port/esp_ipc_isr.c", "/opt/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "/opt/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "/opt/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "/opt/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "/opt/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "/opt/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "/opt/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "/opt/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "/opt/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "/opt/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "/opt/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "/opt/esp-idf/components/esp_system/port/soc/esp32/highint_hdl.S", "/opt/esp-idf/components/esp_system/port/soc/esp32/clk.c", "/opt/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c", "/opt/esp-idf/components/esp_system/port/soc/esp32/system_internal.c", "/opt/esp-idf/components/esp_system/port/soc/esp32/cache_err_int.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1539,7 +1554,7 @@
             "priv_reqs": [ "esp_hal_timg" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_timer/libesp_timer.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_timer/libesp_timer.a",
             "sources": [ "/opt/esp-idf/components/esp_timer/src/esp_timer.c", "/opt/esp-idf/components/esp_timer/src/esp_timer_init.c", "/opt/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "/opt/esp-idf/components/esp_timer/src/system_time.c", "/opt/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "/opt/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1584,7 +1599,7 @@
             "priv_reqs": [ "esp_pm", "esp_timer", "nvs_flash", "efuse", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/esp_wifi/libesp_wifi.a",
             "sources": [ "/opt/esp-idf/components/esp_wifi/src/lib_printf.c", "/opt/esp-idf/components/esp_wifi/src/mesh_event.c", "/opt/esp-idf/components/esp_wifi/src/smartconfig.c", "/opt/esp-idf/components/esp_wifi/src/wifi_init.c", "/opt/esp-idf/components/esp_wifi/src/wifi_default.c", "/opt/esp-idf/components/esp_wifi/src/wifi_netif.c", "/opt/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/opt/esp-idf/components/esp_wifi/esp32/esp_adapter.c", "/opt/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/opt/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
@@ -1629,7 +1644,7 @@
             "priv_reqs": [ "vfs", "esp_driver_gpio", "esptool_py" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/fatfs/libfatfs.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/fatfs/libfatfs.a",
             "sources": [ "/opt/esp-idf/components/fatfs/diskio/diskio.c", "/opt/esp-idf/components/fatfs/diskio/diskio_rawflash.c", "/opt/esp-idf/components/fatfs/diskio/diskio_wl.c", "/opt/esp-idf/components/fatfs/src/ff.c", "/opt/esp-idf/components/fatfs/src/ffunicode.c", "/opt/esp-idf/components/fatfs/port/freertos/ffsystem.c", "/opt/esp-idf/components/fatfs/diskio/diskio_sdmmc.c", "/opt/esp-idf/components/fatfs/vfs/vfs_fat.c", "/opt/esp-idf/components/fatfs/vfs/vfs_fat_sdmmc.c", "/opt/esp-idf/components/fatfs/vfs/vfs_fat_spiflash.c" ],
             "include_dirs": [ "diskio", "src", "vfs" ]
         },
@@ -1644,7 +1659,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/freertos/libfreertos.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "/opt/esp-idf/components/freertos/heap_idf.c", "/opt/esp-idf/components/freertos/app_startup.c", "/opt/esp-idf/components/freertos/port_common.c", "/opt/esp-idf/components/freertos/port_systick.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "/opt/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "/opt/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c", "/opt/esp-idf/components/freertos/esp_additions/idf_additions.c" ],
             "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
         },
@@ -1659,7 +1674,7 @@
             "priv_reqs": [ "esp_hal_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/hal/libhal.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/hal/libhal.a",
             "sources": [ "/opt/esp-idf/components/hal/hal_utils.c", "/opt/esp-idf/components/hal/efuse_hal.c", "/opt/esp-idf/components/hal/esp32/efuse_hal.c", "/opt/esp-idf/components/hal/mmu_hal.c", "/opt/esp-idf/components/hal/esp32/cache_hal_esp32.c", "/opt/esp-idf/components/hal/color_hal.c", "/opt/esp-idf/components/hal/emac_hal.c" ],
             "include_dirs": [ "platform_port/include", "esp32/include", "include" ]
         },
@@ -1674,7 +1689,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/heap/libheap.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/heap/libheap.a",
             "sources": [ "/opt/esp-idf/components/heap/heap_caps_base.c", "/opt/esp-idf/components/heap/heap_caps.c", "/opt/esp-idf/components/heap/heap_caps_init.c", "/opt/esp-idf/components/heap/multi_heap.c", "/opt/esp-idf/components/heap/tlsf/tlsf.c", "/opt/esp-idf/components/heap/port/memory_layout_utils.c", "/opt/esp-idf/components/heap/port/esp32/memory_layout.c" ],
             "include_dirs": [ "include", "tlsf" ]
         },
@@ -1689,7 +1704,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/http_parser/libhttp_parser.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/http_parser/libhttp_parser.a",
             "sources": [ "/opt/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
@@ -1734,7 +1749,7 @@
             "priv_reqs": [ "hal", "soc", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/log/liblog.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/log/liblog.a",
             "sources": [ "/opt/esp-idf/components/log/src/os/log_timestamp.c", "/opt/esp-idf/components/log/src/log_timestamp_common.c", "/opt/esp-idf/components/log/src/os/log_lock.c", "/opt/esp-idf/components/log/src/buffer/log_buffers.c", "/opt/esp-idf/components/log/src/os/util.c", "/opt/esp-idf/components/log/src/util.c", "/opt/esp-idf/components/log/src/log_format_text.c", "/opt/esp-idf/components/log/src/log_print.c", "/opt/esp-idf/components/log/src/log.c", "/opt/esp-idf/components/log/src/os/log_write.c", "/opt/esp-idf/components/log/src/log_level/log_level.c", "/opt/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "/opt/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "/opt/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1749,7 +1764,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/lwip/liblwip.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/lwip/liblwip.a",
             "sources": [ "/opt/esp-idf/components/lwip/apps/sntp/sntp.c", "/opt/esp-idf/components/lwip/lwip/src/api/api_lib.c", "/opt/esp-idf/components/lwip/lwip/src/api/api_msg.c", "/opt/esp-idf/components/lwip/lwip/src/api/err.c", "/opt/esp-idf/components/lwip/lwip/src/api/if_api.c", "/opt/esp-idf/components/lwip/lwip/src/api/netbuf.c", "/opt/esp-idf/components/lwip/lwip/src/api/netdb.c", "/opt/esp-idf/components/lwip/lwip/src/api/netifapi.c", "/opt/esp-idf/components/lwip/lwip/src/api/sockets.c", "/opt/esp-idf/components/lwip/lwip/src/api/tcpip.c", "/opt/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "/opt/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "/opt/esp-idf/components/lwip/lwip/src/core/def.c", "/opt/esp-idf/components/lwip/lwip/src/core/dns.c", "/opt/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "/opt/esp-idf/components/lwip/lwip/src/core/init.c", "/opt/esp-idf/components/lwip/lwip/src/core/ip.c", "/opt/esp-idf/components/lwip/lwip/src/core/mem.c", "/opt/esp-idf/components/lwip/lwip/src/core/memp.c", "/opt/esp-idf/components/lwip/lwip/src/core/netif.c", "/opt/esp-idf/components/lwip/lwip/src/core/pbuf.c", "/opt/esp-idf/components/lwip/lwip/src/core/raw.c", "/opt/esp-idf/components/lwip/lwip/src/core/stats.c", "/opt/esp-idf/components/lwip/lwip/src/core/sys.c", "/opt/esp-idf/components/lwip/lwip/src/core/tcp.c", "/opt/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "/opt/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "/opt/esp-idf/components/lwip/lwip/src/core/timeouts.c", "/opt/esp-idf/components/lwip/lwip/src/core/udp.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "/opt/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "/opt/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "/opt/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "/opt/esp-idf/components/lwip/lwip/src/netif/slipif.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "/opt/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "/opt/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "/opt/esp-idf/components/lwip/port/debug/lwip_debug.c", "/opt/esp-idf/components/lwip/port/sockets_ext.c", "/opt/esp-idf/components/lwip/port/freertos/sys_arch.c", "/opt/esp-idf/components/lwip/port/if_index.c", "/opt/esp-idf/components/lwip/port/acd_dhcp_check.c", "/opt/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "/opt/esp-idf/components/lwip/apps/ping/ping_sock.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/arc4.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/des.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md4.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md5.c", "/opt/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/sha1.c", "/opt/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
             "include_dirs": [ "include", "include/apps", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
         },
@@ -1757,15 +1772,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/main",
+            "dir": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [],
+            "reqs": [ "bmp280", "mpu6050", "sht30", "esp_driver_i2c", "freertos" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/main/freertos-sensor-tasks.c" ],
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/main/libmain.a",
+            "sources": [ "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/main/freertos-sensor-tasks.c", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/main/bmp280_task.c", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/main/mpu6050_task.c", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/main/sht30_task.c", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/main/monitor_task.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -1779,9 +1794,24 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm", "esp_driver_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "/opt/esp-idf/components/mbedtls/port/esp_mem.c", "/opt/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/x509_crt_bundle.S" ],
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "/opt/esp-idf/components/mbedtls/port/esp_mem.c", "/opt/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "mbedtls/tf-psa-crypto/core", "mbedtls/tf-psa-crypto/drivers/builtin/src/", "mbedtls/tf-psa-crypto/extras", "esp_crt_bundle/include", "/opt/esp-idf/components/mbedtls/port/psa_driver/include" ]
+        },
+        "mpu6050": {
+            "alias": "idf::mpu6050",
+            "target": "___idf_mpu6050",
+            "prefix": "idf",
+            "dir": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/mpu6050",
+            "type": "LIBRARY",
+            "lib": "__idf_mpu6050",
+            "reqs": [ "esp_driver_i2c", "freertos", "esp_common" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/mpu6050/libmpu6050.a",
+            "sources": [ "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/mpu6050/src/mpu6050.c" ],
+            "include_dirs": [ "include" ]
         },
         "nvs_flash": {
             "alias": "idf::nvs_flash",
@@ -1794,7 +1824,7 @@
             "priv_reqs": [ "spi_flash", "esp_libc", "esptool_py", "nvs_sec_provider" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/nvs_flash/libnvs_flash.a",
             "sources": [ "/opt/esp-idf/components/nvs_flash/src/nvs_api.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_page.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_types.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_platform.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_bootloader.c", "/opt/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp", "/opt/esp-idf/components/nvs_flash/src/nvs_bootloader_aes.c", "/opt/esp-idf/components/nvs_flash/src/nvs_bootloader_xts_aes.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1809,7 +1839,7 @@
             "priv_reqs": [ "bootloader_support", "efuse", "esp_partition", "nvs_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a",
             "sources": [ "/opt/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1854,7 +1884,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/perfmon/libperfmon.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/perfmon/libperfmon.a",
             "sources": [ "/opt/esp-idf/components/perfmon/xtensa_perfmon_access.c", "/opt/esp-idf/components/perfmon/xtensa_perfmon_apis.c", "/opt/esp-idf/components/perfmon/xtensa_perfmon_masks.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1869,7 +1899,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/protobuf-c/libprotobuf-c.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/protobuf-c/libprotobuf-c.a",
             "sources": [ "/opt/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c" ],
             "include_dirs": [ "protobuf-c" ]
         },
@@ -1884,7 +1914,7 @@
             "priv_reqs": [ "protobuf-c", "mbedtls", "console", "esp_http_server", "esp_driver_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/protocomm/libprotocomm.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/protocomm/libprotocomm.a",
             "sources": [ "/opt/esp-idf/components/protocomm/src/common/protocomm.c", "/opt/esp-idf/components/protocomm/proto-c/constants.pb-c.c", "/opt/esp-idf/components/protocomm/proto-c/sec0.pb-c.c", "/opt/esp-idf/components/protocomm/proto-c/sec1.pb-c.c", "/opt/esp-idf/components/protocomm/proto-c/sec2.pb-c.c", "/opt/esp-idf/components/protocomm/proto-c/session.pb-c.c", "/opt/esp-idf/components/protocomm/src/transports/protocomm_console.c", "/opt/esp-idf/components/protocomm/src/transports/protocomm_httpd.c", "/opt/esp-idf/components/protocomm/src/security/security2.c", "/opt/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp.c", "/opt/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp_mpi.c" ],
             "include_dirs": [ "include/common", "include/security", "include/transports", "include/crypto/srp6a", "proto-c" ]
         },
@@ -1899,7 +1929,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/pthread/libpthread.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/pthread/libpthread.a",
             "sources": [ "/opt/esp-idf/components/pthread/pthread.c", "/opt/esp-idf/components/pthread/pthread_cond_var.c", "/opt/esp-idf/components/pthread/pthread_local_storage.c", "/opt/esp-idf/components/pthread/pthread_rwlock.c", "/opt/esp-idf/components/pthread/pthread_semaphore.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1914,7 +1944,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/rt/librt.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/rt/librt.a",
             "sources": [ "/opt/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c", "/opt/esp-idf/components/rt/FreeRTOS_POSIX_utils.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1929,8 +1959,23 @@
             "priv_reqs": [ "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/sdmmc/libsdmmc.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "/opt/esp-idf/components/sdmmc/sdmmc_cmd.c", "/opt/esp-idf/components/sdmmc/sdmmc_common.c", "/opt/esp-idf/components/sdmmc/sdmmc_init.c", "/opt/esp-idf/components/sdmmc/sdmmc_mmc.c", "/opt/esp-idf/components/sdmmc/sdmmc_sd.c", "/opt/esp-idf/components/sdmmc/sdmmc_blockdev.c", "/opt/esp-idf/components/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c", "/opt/esp-idf/components/sdmmc/sdmmc_io.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "sht30": {
+            "alias": "idf::sht30",
+            "target": "___idf_sht30",
+            "prefix": "idf",
+            "dir": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/sht30",
+            "type": "LIBRARY",
+            "lib": "__idf_sht30",
+            "reqs": [ "esp_driver_i2c", "driver", "freertos", "esp_common" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/sht30/libsht30.a",
+            "sources": [ "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/sht30/src/sht30.c" ],
             "include_dirs": [ "include" ]
         },
         "soc": {
@@ -1944,7 +1989,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/soc/libsoc.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/soc/libsoc.a",
             "sources": [ "/opt/esp-idf/components/soc/lldesc.c", "/opt/esp-idf/components/soc/dport_access_common.c", "/opt/esp-idf/components/soc/esp32/interrupts.c", "/opt/esp-idf/components/soc/esp32/gpio_periph.c", "/opt/esp-idf/components/soc/esp32/dport_access.c", "/opt/esp-idf/components/soc/esp32/emac_periph.c", "/opt/esp-idf/components/soc/esp32/mpi_periph.c", "/opt/esp-idf/components/soc/esp32/power_supply_periph.c" ],
             "include_dirs": [ "include", "esp32", "esp32/include", "esp32/register" ]
         },
@@ -1959,7 +2004,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "esp_hal_gpio", "esp_driver_gpio", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/spi_flash/libspi_flash.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/opt/esp-idf/components/spi_flash/flash_brownout_hook.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/opt/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/opt/esp-idf/components/spi_flash/memspi_host_driver.c", "/opt/esp-idf/components/spi_flash/spi_flash_blockdev.c", "/opt/esp-idf/components/spi_flash/cache_utils.c", "/opt/esp-idf/components/spi_flash/flash_mmap.c", "/opt/esp-idf/components/spi_flash/flash_ops.c", "/opt/esp-idf/components/spi_flash/spi_flash_wrap.c", "/opt/esp-idf/components/spi_flash/esp_flash_api.c", "/opt/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/opt/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/opt/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1974,7 +2019,7 @@
             "priv_reqs": [ "bootloader_support", "vfs", "esptool_py" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/spiffs/libspiffs.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/spiffs/libspiffs.a",
             "sources": [ "/opt/esp-idf/components/spiffs/spiffs_api.c", "/opt/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c", "/opt/esp-idf/components/spiffs/spiffs/src/spiffs_check.c", "/opt/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c", "/opt/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c", "/opt/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c", "/opt/esp-idf/components/spiffs/esp_spiffs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1989,7 +2034,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/tcp_transport/libtcp_transport.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/tcp_transport/libtcp_transport.a",
             "sources": [ "/opt/esp-idf/components/tcp_transport/transport.c", "/opt/esp-idf/components/tcp_transport/transport_ssl.c", "/opt/esp-idf/components/tcp_transport/transport_internal.c", "/opt/esp-idf/components/tcp_transport/transport_socks_proxy.c", "/opt/esp-idf/components/tcp_transport/transport_ws.c" ],
             "include_dirs": [ "include" ]
         },
@@ -2019,7 +2064,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/unity/libunity.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/unity/libunity.a",
             "sources": [ "/opt/esp-idf/components/unity/unity/src/unity.c", "/opt/esp-idf/components/unity/unity_compat.c", "/opt/esp-idf/components/unity/unity_runner.c", "/opt/esp-idf/components/unity/unity_utils_freertos.c", "/opt/esp-idf/components/unity/unity_utils_cache.c", "/opt/esp-idf/components/unity/unity_utils_memory.c", "/opt/esp-idf/components/unity/unity_port_esp32.c", "/opt/esp-idf/components/unity/port/esp/unity_utils_memory_esp.c" ],
             "include_dirs": [ "include", "unity/src" ]
         },
@@ -2034,7 +2079,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_usb_cdc_rom_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/vfs/libvfs.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/vfs/libvfs.a",
             "sources": [ "/opt/esp-idf/components/vfs/vfs.c", "/opt/esp-idf/components/vfs/vfs_calls.c", "/opt/esp-idf/components/vfs/vfs_eventfd.c", "/opt/esp-idf/components/vfs/vfs_semihost.c", "/opt/esp-idf/components/vfs/nullfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -2049,7 +2094,7 @@
             "priv_reqs": [ "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/wear_levelling/libwear_levelling.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/wear_levelling/libwear_levelling.a",
             "sources": [ "/opt/esp-idf/components/wear_levelling/Partition.cpp", "/opt/esp-idf/components/wear_levelling/BDL_Access.cpp", "/opt/esp-idf/components/wear_levelling/SPI_Flash.cpp", "/opt/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp", "/opt/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp", "/opt/esp-idf/components/wear_levelling/WL_Flash.cpp", "/opt/esp-idf/components/wear_levelling/crc32.cpp", "/opt/esp-idf/components/wear_levelling/wear_levelling.cpp", "/opt/esp-idf/components/wear_levelling/wl_blockdev.cpp" ],
             "include_dirs": [ "include" ]
         },
@@ -2064,7 +2109,7 @@
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "/opt/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/opt/esp-idf/components/wpa_supplicant/port/eloop.c", "/opt/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/opt/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/opt/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/opt/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/opt/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/opt/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/opt/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/opt/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/opt/esp-idf/components/wpa_supplicant/src/common/sae.c", "/opt/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/opt/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/opt/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/opt/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/opt/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/opt/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/opt/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/opt/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/opt/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/opt/esp-idf/components/wpa_supplicant/src/utils/common.c", "/opt/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/opt/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/opt/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/opt/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/opt/esp-idf/components/wpa_supplicant/src/utils/json.c", "/opt/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/opt/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/opt/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/opt/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/opt/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/opt/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/opt/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/opt/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/opt/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/opt/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
@@ -2079,7 +2124,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/xtensa/libxtensa.a",
+            "file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/opt/esp-idf/components/xtensa/eri.c", "/opt/esp-idf/components/xtensa/xt_trax.c", "/opt/esp-idf/components/xtensa/xtensa_context.S", "/opt/esp-idf/components/xtensa/xtensa_intr_asm.S", "/opt/esp-idf/components/xtensa/xtensa_intr.c", "/opt/esp-idf/components/xtensa/xtensa_vectors.S" ],
             "include_dirs": [ "esp32/include", "include", "deprecated_include" ]
         }
@@ -3896,22 +3941,61 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/main",
+            "dir": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/main",
             "source": "project_components",
             "lib": "__idf_main",
-            "reqs": [],
+            "reqs": [ "bmp280", "mpu6050", "sht30", "esp_driver_i2c", "freertos" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
+        },
+        "bmp280": {
+            "alias": "idf::bmp280",
+            "target": "___idf_bmp280",
+            "prefix": "idf",
+            "dir": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/bmp280",
+            "source": "project_components",
+            "lib": "__idf_bmp280",
+            "reqs": [ "esp_driver_i2c", "driver", "freertos", "esp_common" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
+        "mpu6050": {
+            "alias": "idf::mpu6050",
+            "target": "___idf_mpu6050",
+            "prefix": "idf",
+            "dir": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/mpu6050",
+            "source": "project_components",
+            "lib": "__idf_mpu6050",
+            "reqs": [ "esp_driver_i2c", "freertos", "esp_common" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
+        "sht30": {
+            "alias": "idf::sht30",
+            "target": "___idf_sht30",
+            "prefix": "idf",
+            "dir": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/components/sht30",
+            "source": "project_components",
+            "lib": "__idf_sht30",
+            "reqs": [ "esp_driver_i2c", "driver", "freertos", "esp_common" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
         }
     },
     "gdbinit_files": {
-        "01_symbols": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/symbols",
-        "02_prefix_map": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/prefix_map",
-        "03_py_extensions": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/py_extensions",
-        "04_connect": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/connect"
+        "01_symbols": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/symbols",
+        "02_prefix_map": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/prefix_map",
+        "03_py_extensions": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/py_extensions",
+        "04_connect": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/gdbinit/connect"
     },
     "debug_arguments_openocd": "-f board/esp32-wrover-kit-3.3v.cfg",
-    "hints_file": "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/hints.yml"
+    "hints_file": "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/hints.yml"
 }

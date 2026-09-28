@@ -1,2 +1,16 @@
-idf_component_register(SRCS "freertos-sensor-tasks.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(
+  SRCS 
+    "freertos-sensor-tasks.c"
+    "bmp280_task.c"
+    "mpu6050_task.c"
+    "sht30_task.c"
+    "monitor_task.c"
+  INCLUDE_DIRS 
+    "."
+  REQUIRES
+    bmp280
+    mpu6050
+    sht30
+    esp_driver_i2c
+    freertos
+)

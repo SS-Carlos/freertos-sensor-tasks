@@ -10,18 +10,18 @@ if(NOT EXISTS "/opt/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/opt/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader"
-  "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix"
-  "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/tmp"
-  "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src"
-  "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader"
+  "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix"
+  "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/tmp"
+  "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src"
+  "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/ss-carlos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/ss-carlos/Documentos/esp/proyectos/freertos-sensor-tasks/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
