@@ -9,6 +9,7 @@ managed_components/
 
 # Archivos del sistema
 .DS_Store
+.direnv/
 *~
 *.swp
 *.swo
